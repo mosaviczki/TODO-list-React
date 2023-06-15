@@ -1,0 +1,58 @@
+.ctnTodo{
+    width: 100%;
+    height: 65px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 1px solid rgb(76, 110, 155);
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.category{
+    width: 10%;
+    height: 20px;
+    border: none;
+    border-radius: 10px;
+    padding: 5px;
+    background-color: rgb(55, 43, 226);
+    color: white;
+    font-weight: 700;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.todoSelect{
+    width: 7%;
+}
+.todoInformation{
+    width: 80%;
+}
+.todoAction{
+    width: 13%;
+}
+.btnAction{
+    border: none;
+    background-color: transparent;
+    margin-right: 25px;
+    cursor: pointer;
+}
+.line{
+    margin-bottom: 30px;
+    height: 1px;
+    background-color: rgb(76, 110, 155);
+    border: none;
+    border-radius: 10px;
+}
+.inputSearch{
+    width: 40%;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid rgb(76, 110, 155);
+    background-color: transparent;
+    padding: 0px 5px;
+    outline: none;
+    margin-right: 20px;
+    margin-bottom: 15px;
+}

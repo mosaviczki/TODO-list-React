@@ -1,10 +1,12 @@
-import logo from './logo.svg';
-import './App.css';
+import { ToastContainer } from "react-toastify";
+import "./index.css";
+import Home from "./page/Home";
 
 function App() {
   return (
-    <div className="App">
-      
+    <div className="app">
+      <Home />
+      <ToastContainer />
     </div>
   );
 }
