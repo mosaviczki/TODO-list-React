@@ -11,8 +11,8 @@ export default function CategoryForm(props) {
   };
 
   useEffect(()=>{
-    localStorage.setItem("selectCategory", JSON.stringify(name))
-    }, [name]);
+    localStorage.setItem("nameCategory", JSON.stringify(name))
+  }, [name]);
 
   const handleSubmit = (e) =>{
     e.preventDefault();

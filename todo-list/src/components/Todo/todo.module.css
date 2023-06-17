@@ -9,8 +9,13 @@
     padding: 10px;
     margin-bottom: 10px;
 }
+.categories{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-start;
+}
 .category{
-    width: 10%;
     height: 20px;
     border: none;
     border-radius: 10px;
@@ -22,6 +27,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    margin-right: 5px;
 }
 .todoSelect{
     width: 7%;

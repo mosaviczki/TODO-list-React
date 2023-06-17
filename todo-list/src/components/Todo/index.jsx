@@ -59,7 +59,12 @@ export default function Todo(){
                     </div>
                     <div className={styles.todoInformation} style={{textDecoration: todo.isCompleted ? "line-through" : ""}}>
                         <p>{todo.text}</p>
-                        <p className={styles.category}>{todo.category}</p>
+                        <div className={styles.categories}>
+                            {todo.category.map((category) =>(
+                                <p className={styles.category}>{category}</p>
+                            ))}
+                        </div>
+                        
                     </div>
                     <div className={styles.todoAction}>
                         <button className={styles.btnAction} onClick={() => removeTodo(todo.id)}><DeleteIcon/></button>
