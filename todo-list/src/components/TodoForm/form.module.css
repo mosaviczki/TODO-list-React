@@ -11,8 +11,8 @@
 }
 .inputAdd{
     flex: 30%;
-    height: 30px;
-    border-radius: 10px;
+    height: 38px;
+    border-radius: 5px;
     border: 1px solid rgb(76, 110, 155);
     background-color: transparent;
     padding: 0px 5px;
